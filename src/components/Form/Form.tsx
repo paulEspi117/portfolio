@@ -19,7 +19,7 @@ export function Form() {
   }
   useEffect(() => {
     if (state.succeeded) {
-      toast.success('Email successfully sent!', {
+      toast.success('Email envoyé avec succès !', {
         position: toast.POSITION.BOTTOM_LEFT,
         pauseOnFocusLoss: false,
         closeOnClick: true,
@@ -31,13 +31,13 @@ export function Form() {
   if (state.succeeded) {
     return (
       <ContainerSucces>
-        <h3>Thanks for getting in touch!</h3>
+        <h3>Merci de m'avoir contacté !</h3>
         <button
           onClick={() => {
             window.scrollTo({ top: 0, behavior: 'smooth' })
           }}
         >
-          Back to the top
+          Retour au début
         </button>
         <ToastContainer />
       </ContainerSucces>
@@ -45,7 +45,7 @@ export function Form() {
   }
   return (
     <Container>
-      <h2>Get in touch using the form</h2>
+      <h2>Contactez moi en utilisant le formulaire</h2>
       <form onSubmit={handleSubmit}>
         <input
           placeholder="Email"
@@ -60,7 +60,7 @@ export function Form() {
         <ValidationError prefix="Email" field="email" errors={state.errors} />
         <textarea
           required
-          placeholder="Send a message to get started."
+          placeholder="Envoyez un message pour commencer"
           id="message"
           name="message"
           onChange={(e) => {

@@ -17,55 +17,33 @@ export function About() {
     <Container id="about">
       <div className="about-text">
         <ScrollAnimation animateIn="fadeInLeft">
-          <h2>About me</h2>
+          <h2>À propos de moi</h2>
         </ScrollAnimation>
         <ScrollAnimation animateIn="fadeInLeft" delay={0.1 * 1000}>
           <p>
-            Hi there! I'm Vinayak, a website developer with a passion for creating custom online experiences for my clients. With a skill set including HTML, CSS, JavaScript, and React, I have the tools to bring any website vision to life.
-          </p>
+          Je m'appelle Paul Espinasse, et je suis passionné par l'informatique et les nouvelles technologies. Curieux et toujours en quête d’apprentissage, j’aime explorer différents domaines du développement .
+​          </p>
         </ScrollAnimation>
         <ScrollAnimation animateIn="fadeInLeft" delay={0.2 * 1000} style={{ marginTop: "2rem", marginBottom: "2rem" }}>
           <p>
-            But my services go beyond just custom development - I'm also proficient in using CMS systems like WordPress and Shopify, making it easy for my clients to take control of their own websites and keep them up to date.</p>
+          Depuis mes débuts, j’ai eu l’opportunité de travailler sur plusieurs projets mêlant développement et travail d'équipe. Mon objectif est de créer des solutions innovantes et efficaces tout en continuant à apprendre et à évoluer dans ce domaine en constante évolution.
+          ​</p>
         </ScrollAnimation>
         <ScrollAnimation animateIn="fadeInLeft" delay={0.3 * 1000}>
           <p>
-            So if you're in need of a new website or just looking to revamp your current online presence, I'd love to chat and see how I can help. Let's bring your website dreams to reality together!</p>
+          Sur ce portfolio, vous trouverez quelques-uns de mes projets récents. N’hésitez pas à les explorer et à me contacter pour en discuter !</p>
+        </ScrollAnimation>
+
+        <ScrollAnimation animateIn="fadeInLeft" delay={0.3 * 1000} style={{ marginTop: "2rem", marginBottom: "2rem" }}>
+          <p>
+          Si vous souhaitez échanger sur un projet ou une collaboration, vous pouvez me contacter via mon email.</p>
         </ScrollAnimation>
         <ScrollAnimation animateIn="fadeInLeft" delay={0.4 * 1000}>
-          <h3>Here are my main skills:</h3>
+          <h3>Mes compétences:</h3>
         </ScrollAnimation>
         <div className="hard-skills">
-          <div className="hability">
-            <ScrollAnimation animateIn="fadeInUp" delay={0.10 * 1000}>
-              <img src={wordpress} alt="Wordpress" />
-            </ScrollAnimation>
-          </div>
-          <div className="hability">
-            <ScrollAnimation animateIn="fadeInUp" delay={0.12 * 1000}>
-              <img src={shopify} alt="shopify" />
-            </ScrollAnimation>
-          </div>
-          <div className="hability">
-            <ScrollAnimation animateIn="fadeInUp" delay={0.13 * 1000}>
-              <img src={reactIcon} alt="React" />
-            </ScrollAnimation>
-          </div>
-          <div className="hability">
-            <ScrollAnimation animateIn="fadeInUp" delay={0.14 * 1000}>
-              <img src={typescriptIcon} alt="Typescript" />
-            </ScrollAnimation>
-          </div>
-          <div className="hability">
-            <ScrollAnimation animateIn="fadeInUp" delay={0.15 * 1000}>
-              <img src={vueIcon} alt="Vue" />
-            </ScrollAnimation>
-          </div>
-          <div className="hability">
-            <ScrollAnimation animateIn="fadeInUp" delay={0.16 * 1000}>
-              <img src={nodeIcon} alt="Node" />
-            </ScrollAnimation>
-          </div>
+          
+          
           <div className="hability">
             <ScrollAnimation animateIn="fadeInUp" delay={0.17 * 1000}>
               <img src={htmlIcon} alt="Html" />
