@@ -11,6 +11,7 @@ import typescriptIcon from "../../assets/typescript-icon.svg";
 import vueIcon from "../../assets/vue-icon.svg";
 import boostrapIcon from "../../assets/bootstrap-icon.svg";
 import ScrollAnimation from "react-animate-on-scroll";
+import moi from "../../assets/moi.png";
 
 export function About() {
   return (
@@ -68,7 +69,7 @@ export function About() {
       </div>
       <div className="about-image">
         <ScrollAnimation animateIn="fadeInRight" delay={0.20 * 1000}>
-          <img src={VinayakSingh} alt="Vinayak Singh" />
+          <img src={moi} alt="Vinayak Singh" />
         </ScrollAnimation>
       </div>
     </Container>
