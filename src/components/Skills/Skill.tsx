@@ -6,7 +6,9 @@ import ScrollAnimation from "react-animate-on-scroll";
 import team from "../../assets/team.svg";
 import optimize from "../../assets/optimize.svg";
 import dev from "../../assets/dev.svg";
-
+import admin from "../../assets/admin.svg";
+import data from "../../assets/data.svg";
+import management from "../../assets/management.svg";
 
 export function Skill() {
   return (
@@ -97,6 +99,111 @@ export function Skill() {
               <h3>Travail d'équipe</h3>
               <p>
               Acquérir, développer et exploiter les aptitudes nécessaires pour travailler efficacement dans une équipe informatique.
+              </p>
+            </div>
+            <footer>
+              {/* <ul className="tech-list">
+                <li>XGBoost</li>
+                <li>Pandas</li>
+                <li>Matplotlib</li>
+              </ul> */}
+            </footer>
+          </div>
+        </ScrollAnimation>
+
+        <ScrollAnimation animateIn="flipInX">
+          <div className="skill">
+            <header>
+              <svg width="50" xmlns="http://www.w3.org/2000/svg" role="img" viewBox="0 0 24 24" fill="none" stroke="#23ce6b" strokeWidth="1" strokeLinecap="round" strokeLinejoin="round">
+                <title>Folder</title>
+                <path d="M22 19a2 2 0 0 1-2 2H4a2 2 0 0 1-2-2V5a2 2 0 0 1 2-2h5l2 3h9a2 2 0 0 1 2 2z"></path>
+              </svg>
+              <a>
+                <img src={admin} alt="Visit site" />
+              </a>
+              {/* <div className="project-links">
+                <a href="https://github.com/CodeVinayak/Jupyter-Notebook/tree/main/Credit%20Risk%20Analysis" target="\_blank" rel="noreferrer">
+                  <img src={githubIcon} alt="Visit site" />
+                </a>
+                <a href="https://github.com/CodeVinayak/Jupyter-Notebook/blob/main/Credit%20Risk%20Analysis/Credit_Risk_Analysis.ipynb" target="\_blank" rel="noreferrer">
+                  <img src={externalLink} alt="Visit site" />
+                </a>
+              </div> */}
+            </header>
+            <div className="body">
+              <h3>Administrer</h3>
+              <p>
+              Installer, configurer, maintenir et optimiser les infrastructures, services et réseaux informatiques d’une organisation.
+              </p>
+            </div>
+            <footer>
+              {/* <ul className="tech-list">
+                <li>XGBoost</li>
+                <li>Pandas</li>
+                <li>Matplotlib</li>
+              </ul> */}
+            </footer>
+          </div>
+        </ScrollAnimation>
+
+        <ScrollAnimation animateIn="flipInX">
+          <div className="skill">
+            <header>
+              <svg width="50" xmlns="http://www.w3.org/2000/svg" role="img" viewBox="0 0 24 24" fill="none" stroke="#23ce6b" strokeWidth="1" strokeLinecap="round" strokeLinejoin="round">
+                <title>Folder</title>
+                <path d="M22 19a2 2 0 0 1-2 2H4a2 2 0 0 1-2-2V5a2 2 0 0 1 2-2h5l2 3h9a2 2 0 0 1 2 2z"></path>
+              </svg>
+              <a>
+                <img src={management} alt="Visit site" />
+              </a>
+              {/* <div className="project-links">
+                <a href="https://github.com/CodeVinayak/Jupyter-Notebook/tree/main/Credit%20Risk%20Analysis" target="\_blank" rel="noreferrer">
+                  <img src={githubIcon} alt="Visit site" />
+                </a>
+                <a href="https://github.com/CodeVinayak/Jupyter-Notebook/blob/main/Credit%20Risk%20Analysis/Credit_Risk_Analysis.ipynb" target="\_blank" rel="noreferrer">
+                  <img src={externalLink} alt="Visit site" />
+                </a>
+              </div> */}
+            </header>
+            <div className="body">
+              <h3>Gestion de projet</h3>
+              <p>
+              Organiser et piloter un projet informatique avec des méthodes classiques ou agiles.
+              </p>
+            </div>
+            <footer>
+              {/* <ul className="tech-list">
+                <li>XGBoost</li>
+                <li>Pandas</li>
+                <li>Matplotlib</li>
+              </ul> */}
+            </footer>
+          </div>
+        </ScrollAnimation>
+
+        <ScrollAnimation animateIn="flipInX">
+          <div className="skill">
+            <header>
+              <svg width="50" xmlns="http://www.w3.org/2000/svg" role="img" viewBox="0 0 24 24" fill="none" stroke="#23ce6b" strokeWidth="1" strokeLinecap="round" strokeLinejoin="round">
+                <title>Folder</title>
+                <path d="M22 19a2 2 0 0 1-2 2H4a2 2 0 0 1-2-2V5a2 2 0 0 1 2-2h5l2 3h9a2 2 0 0 1 2 2z"></path>
+              </svg>
+              <a>
+                <img src={data} alt="Visit site" />
+              </a>
+              {/* <div className="project-links">
+                <a href="https://github.com/CodeVinayak/Jupyter-Notebook/tree/main/Credit%20Risk%20Analysis" target="\_blank" rel="noreferrer">
+                  <img src={githubIcon} alt="Visit site" />
+                </a>
+                <a href="https://github.com/CodeVinayak/Jupyter-Notebook/blob/main/Credit%20Risk%20Analysis/Credit_Risk_Analysis.ipynb" target="\_blank" rel="noreferrer">
+                  <img src={externalLink} alt="Visit site" />
+                </a>
+              </div> */}
+            </header>
+            <div className="body">
+              <h3>Gérer des données</h3>
+              <p>
+              Concevoir, gérer et exploiter les données de l’entreprise pour assurer un pilotage efficace.
               </p>
             </div>
             <footer>
