@@ -5,6 +5,12 @@ import externalLink from "../../assets/external-link.svg";
 import ScrollAnimation from "react-animate-on-scroll";
 import unityLogo from "../../assets/unityLogo.png"
 import flappyGame from "../../assets/flappyGame.png"
+import flop from "../../assets/flop.png"
+import viteLogo from "../../assets/viteLogo.png"
+import idiaLogo from "../../assets/idiaLogo.png"
+import grimportLogo from "../../assets/grimportLogo.png"
+import sigmaPage from "../../assets/sigmaPrime.png"
+import phpLogo from "../../assets/phpLogo.png"
 
 export function Project() {
   const [selectedProject, setSelectedProject] = useState<number | null>(null);
@@ -15,7 +21,7 @@ export function Project() {
       description:
         "Ce projet consistait à apprendre à utiliser le moteur de jeu Unity en reproduisant le jeu Flappy Bird. Le jeu est jouable sur ordinateur.",
       extraText:
-        "Dans ce projet, j'ai découvert la physique des jeux et comment gérer les collisions. J'ai également travaillé sur les animations et l'intégration de sons.",
+        "Dans ce projet, j'ai découvert les bases de la création de jeu en 2D avec Unity. J'ai appris à utiliser les composants de base d'Unity et à gérer les collisions. J'ai également appris à utiliser le langage C# pour programmer les mécaniques du jeu.",
       technologies: ["Unity", "C#"],
       images: [unityLogo, flappyGame],
       links: [],
@@ -25,9 +31,9 @@ export function Project() {
       description:
         "Ce projet consistait à améliorer le site vitrine de FlopEDT, un logiciel libre de génération automatique et de gestion coopérative des emplois du temps.",
       extraText:
-        "J'ai principalement travaillé sur la refonte du design et l'optimisation des performances du site. J'ai aussi amélioré l'accessibilité et la compatibilité mobile.",
+        "Dans le contexte d'un projet universitaire, j'ai eu l'occasion de participer à la refonte du site Flop.org. La refonte de Flop.org a pour but de moderniser le site vitrine de Flop!Edt avec une nouvelle interface, des fonctionnalités améliorées, et une mise à jour complète de la charte graphique. Ce projet vise à promouvoir la nouvelle version du logiciel, dont la publication est prévue pour le printemps 2025.",
       technologies: ["Vitepress", "TypeScript"],
-      images: ["/images/flop1.png", "/images/flop2.png"],
+      images: [viteLogo, flop],
       links: [{ url: "https://github.com/CodeVinayak/AI-Chatbot-Assistant", icon: githubIcon }],
     },
     {
@@ -35,9 +41,9 @@ export function Project() {
       description:
         "Ce stage consistait à rédiger des scripts de web-mining pour les clients de l'entreprise, tout en communiquant avec eux pour comprendre leurs demandes.",
       extraText:
-        "J'ai utilisé des outils de scraping avancés et appris à structurer des bases de données pour stocker et analyser les informations collectées.",
+        "Durant ce stage, j'ai découvert le concept du web-mining et j'ai appris à utiliser le language Grimport, afin de rédiger des scripts pour automatiser la collecte de données sur le web. J'ai également appris à communiquer avec les clients pour comprendre leurs besoins et à leur fournir des solutions adaptées.",
       technologies: ["Grimport", "HTML", "CSS", "JavaScript"],
-      images: ["/images/idia1.png", "/images/idia2.png"],
+      images: [idiaLogo, grimportLogo],
       links: [{ url: "https://github.com/CodeVinayak/Jupyter-Notebook/blob/main/Credit%20Risk%20Analysis/Credit_Risk_Analysis.ipynb", icon: externalLink }],
     },
     {
@@ -45,9 +51,9 @@ export function Project() {
       description:
         "Ce projet consistait à développer un site de e-commerce en équipe de 3 personnes.",
       extraText:
-        "J'ai travaillé sur l'architecture backend et la gestion des transactions. Ce projet m'a permis d'apprendre à gérer la sécurité des paiements en ligne.",
+        "Dans le contexte d'un projet universitaire, j'ai du créer un site de e-commerce en équipe de 3 personnes. J'ai travaillé sur la partie back-end du site, en utilisant le langage PHP et une base de données SQL. J'ai également participé à la création de la base de données et à la gestion des produits.",
       technologies: ["PHP", "HTML", "CSS", "SQL"],
-      images: ["/images/ecommerce1.png", "/images/ecommerce2.png"],
+      images: [sigmaPage, phpLogo],
       links: [],
     },
   ];

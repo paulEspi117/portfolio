@@ -163,12 +163,14 @@ export const ProjectDetailsOverlay = styled.div`
       max-width: 100%;
       object-fit: contain;
       border-radius: 1.2rem;
+      margin-right: 2rem; /* Ajoute un espace entre les images */
+      margin-left: 2rem; /* Ajoute un espace entre les images */
     }
   }
 
   .extra-text {
-    font-size: 1.2rem;
-    color: #555;
+    font-size: 2rem;
+    color: #ffff;
     margin-top: 0; /* Plus besoin d'un grand écart avec les images */
     margin-bottom: 1rem; /* Ajoute un espace sous le texte supplémentaire */
   }
