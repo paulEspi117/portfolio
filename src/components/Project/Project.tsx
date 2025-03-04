@@ -34,7 +34,7 @@ export function Project() {
         "Dans le contexte d'un projet universitaire, j'ai eu l'occasion de participer à la refonte du site Flop.org. La refonte de Flop.org a pour but de moderniser le site vitrine de Flop!Edt avec une nouvelle interface, des fonctionnalités améliorées, et une mise à jour complète de la charte graphique. Ce projet vise à promouvoir la nouvelle version du logiciel, dont la publication est prévue pour le printemps 2025.",
       technologies: ["Vitepress", "TypeScript"],
       images: [viteLogo, flop],
-      links: [{ url: "https://github.com/CodeVinayak/AI-Chatbot-Assistant", icon: githubIcon }],
+      links: [],
     },
     {
       title: "Stage chez IdiaTech",
@@ -44,7 +44,7 @@ export function Project() {
         "Durant ce stage, j'ai découvert le concept du web-mining et j'ai appris à utiliser le language Grimport, afin de rédiger des scripts pour automatiser la collecte de données sur le web. J'ai également appris à communiquer avec les clients pour comprendre leurs besoins et à leur fournir des solutions adaptées.",
       technologies: ["Grimport", "HTML", "CSS", "JavaScript"],
       images: [idiaLogo, grimportLogo],
-      links: [{ url: "https://github.com/CodeVinayak/Jupyter-Notebook/blob/main/Credit%20Risk%20Analysis/Credit_Risk_Analysis.ipynb", icon: externalLink }],
+      links: [{ url: "https://www.idia-tech.com/", icon: externalLink }],
     },
     {
       title: "Création d'un site e-commerce",
@@ -54,7 +54,7 @@ export function Project() {
         "Dans le contexte d'un projet universitaire, j'ai du créer un site de e-commerce en équipe de 3 personnes. J'ai travaillé sur la partie back-end du site, en utilisant le langage PHP et une base de données SQL. J'ai également participé à la création de la base de données et à la gestion des produits.",
       technologies: ["PHP", "HTML", "CSS", "SQL"],
       images: [sigmaPage, phpLogo],
-      links: [],
+      links: [{ url: "https://github.com/IUT-Blagnac/sae-3-01-devapp-g2a-8", icon: githubIcon }],
     },
   ];
 

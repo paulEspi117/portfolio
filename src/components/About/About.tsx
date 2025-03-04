@@ -12,6 +12,8 @@ import vueIcon from "../../assets/vue-icon.svg";
 import boostrapIcon from "../../assets/bootstrap-icon.svg";
 import ScrollAnimation from "react-animate-on-scroll";
 import moi from "../../assets/moi.png";
+import phpLogo from "../../assets/phpIcon.svg";
+import javaIcon from "../../assets/javaIcon.svg";
 
 export function About() {
   return (
@@ -55,14 +57,16 @@ export function About() {
               <img src={cssIcon} alt="Css" />
             </ScrollAnimation>
           </div>
+          
           <div className="hability">
             <ScrollAnimation animateIn="fadeInUp" delay={0.19 * 1000}>
-              <img src={boostrapIcon} alt="bootstrap" />
+              <img src={phpLogo} alt="PHP" />
             </ScrollAnimation>
           </div>
+
           <div className="hability">
-            <ScrollAnimation animateIn="fadeInUp" delay={0.19 * 1000}>
-              <img src={jsIcon} alt="JavaScript" />
+            <ScrollAnimation animateIn="fadeInUp" delay={0.18 * 1000}>
+              <img src={javaIcon} alt="java" />
             </ScrollAnimation>
           </div>
         </div>
