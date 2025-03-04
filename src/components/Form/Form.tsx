@@ -80,7 +80,7 @@ export function Form() {
         ></ReCAPTCHA> */}
         <button
           type="submit"
-          disabled={state.submitting || !validEmail || !message || !isHuman}
+          disabled={state.submitting || !validEmail || !message }
         >
           Submit
         </button>
