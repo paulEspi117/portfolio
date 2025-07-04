@@ -16,8 +16,11 @@ import typescriptIcon from "../../assets/typescript-icon.svg";
 import vueIcon from "../../assets/vue-icon.svg";
 import boostrapIcon from "../../assets/bootstrap-icon.svg";
 import { Skill } from "../Skills/Skill";
+import { useState } from "react";
 
 export function Main() {
+  const [highlightedSkill, setHighlightedSkill] = useState<string | null>(null);
+
   return (
     <Container>
       <Particles
@@ -258,8 +261,8 @@ export function Main() {
       />
       <Hero></Hero>
       <About></About>
-      <Skill></Skill>
-      <Project></Project>
+      <Skill/>
+      <Project/>
       <Contact></Contact>
     </Container>
   );
