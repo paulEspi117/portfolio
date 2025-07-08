@@ -64,7 +64,9 @@ export function Project() {
       extraText:
         "Durant ce stage, j'ai améliorer mes compétences en développement backend, avec les languages PHP et JavaScript, en travaillant en équipe avec une méthode agile.",
       technologies: ["PHP", "HTML", "CSS", "JavaScript"],
-      images: [ght9logo],    
+      images: [ght9logo],   
+      links: [],
+ 
     },
   ];
 
