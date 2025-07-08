@@ -62,7 +62,7 @@ export function Project() {
       description:
         "Ce stage consistait à développer des fonctionnalités en PHP et MYSQL pour permettre à l'entreprise de gérer leurs boutiques de e-commerce.",
       extraText:
-        "Durant ce stage, j'ai améliorer mes compétences en développement backend, avec les languages PHP et JavaScript, en travaillant en équipe avec une méthode agile.",
+        "Durant ce stage, j'ai amélioré mes compétences en développement backend, avec les languages PHP et JavaScript, en travaillant en équipe avec une méthode agile.",
       technologies: ["PHP", "HTML", "CSS", "JavaScript"],
       images: [ght9logo],   
       links: [],
