@@ -11,6 +11,7 @@ import idiaLogo from "../../assets/idiaLogo.png"
 import grimportLogo from "../../assets/grimportLogo.png"
 import sigmaPage from "../../assets/sigmaPrime.png"
 import phpLogo from "../../assets/phpLogo.png"
+import ght9logo from "../../assets/ght9logo.png";
 
 export function Project() {
   const [selectedProject, setSelectedProject] = useState<number | null>(null);
@@ -55,6 +56,15 @@ export function Project() {
       technologies: ["PHP", "HTML", "CSS", "SQL"],
       images: [sigmaPage, phpLogo],
       links: [{ url: "https://github.com/IUT-Blagnac/sae-3-01-devapp-g2a-8", icon: githubIcon }],
+    },
+    {
+      title: "Stage chez GHT9",
+      description:
+        "Ce stage consistait à développer des fonctionnalités en PHP et MYSQL pour permettre à l'entreprise de gérer leurs boutiques de e-commerce.",
+      extraText:
+        "Durant ce stage, j'ai améliorer mes compétences en développement backend, avec les languages PHP et JavaScript, en travaillant en équipe avec une méthode agile.",
+      technologies: ["PHP", "HTML", "CSS", "JavaScript"],
+      images: [ght9logo],    
     },
   ];
 
