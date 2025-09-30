@@ -126,9 +126,19 @@ export function Project() {
               ))}
             </ul> */}
             <div className="images">
-              {projects[selectedProject].images.map((image, imgIndex) => (
-                <img key={imgIndex} src={image} alt={`Screenshot ${imgIndex + 1}`} />
-              ))}
+                {projects[selectedProject].images.map((image, imgIndex) => (
+                <img
+                  key={imgIndex}
+                  src={image}
+                  alt={`Screenshot ${imgIndex + 1}`}
+                  style={{
+                  maxWidth: "300px",
+                  maxHeight: "200px",
+                  display: "block",
+                  margin: "16px auto"
+                  }}
+                />
+                ))}
 
             </div>
             {projects[selectedProject].extraText && <p className="extra-text">{projects[selectedProject].extraText}</p>}
