@@ -42,7 +42,7 @@ export function About() {
           Si vous souhaitez échanger sur un projet ou une collaboration, vous pouvez me contacter via mon email.</p>
         </ScrollAnimation>
         <ScrollAnimation animateIn="fadeInLeft" delay={0.4 * 1000}>
-          <h3>Mes compétences:</h3>
+          <h3>Mes languages:</h3>
         </ScrollAnimation>
         <div className="hard-skills">
           
